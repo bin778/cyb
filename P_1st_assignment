@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+  printf("1. My id number is 2017301078");
+  printf("2. My name is 최영빈");
+  printf("3. My Phone number is 01076031285");
+  printf("4. My GitHub address is bin778@naver.com");
+  
+  return 0;
+}

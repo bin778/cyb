@@ -13,9 +13,9 @@ int checkprimenumber(int n){
 int main(){
 	int n1,n2,i,flag;
 
-	printf("µÎ Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ë‘ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d%d",&n1,&n2);
-	printf("µÎ ¼Ò¼ö %d¿Í %d´Â: ",n1,n2);
+	printf("ë‘ ì†Œìˆ˜ %dì™€ %dëŠ”: ",n1,n2);
 
 	for (i=n1+1; i<n2; i++){
 		flag = checkprimenumber(i);
